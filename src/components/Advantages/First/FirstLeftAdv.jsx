@@ -3,7 +3,7 @@ import Bell from "../../../assets/bell.png";
 
 const FirstLeftAdv = () => {
   return (
-    <div className=" lg:mx-0 mx-4 lg:w-[46%] w-[425px]">
+    <div data-aos="fade-right" className=" lg:mx-0 mx-4 lg:w-[46%] w-[425px]">
       <h1 className="  uppercase lg:text-[18px] font-[ClashDisplay-Medium] tracking-widest text-primary-red">
         Advantages
       </h1>

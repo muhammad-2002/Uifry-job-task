@@ -1,4 +1,7 @@
-import { useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import React, { useEffect, useState } from "react";
+
 import Advantages from "./components/Advantages/Advantages";
 import Download from "./components/Download/Download";
 import Faq from "./components/FAQ/Faq";
@@ -7,8 +10,16 @@ import Footer from "./components/Footer";
 import Hero from "./components/Hero/Hero";
 import Navbar from "./components/Navbar";
 import Testimonials from "./components/Testimonials/Testimonials";
-
 function App() {
+  useEffect(() => {
+    AOS.init({
+      // Global settings:
+      duration: 1200, // values from 0 to 3000, with step 50ms
+      easing: "ease-in-out", // default easing for AOS animations
+      once: false, // whether animation should happen only once - while scrolling down
+      mirror: false, // whether elements should animate out while scrolling past them
+    });
+  }, []);
   const [theme, setTheme] = useState(
     localStorage.getItem("theme") ? localStorage.getItem("theme") : "light"
   );

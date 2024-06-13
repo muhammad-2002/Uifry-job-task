@@ -1,8 +1,8 @@
 import React from "react";
 import adv2 from "../../../assets/adv2.png";
 import advs2 from "../../../assets/advs2.png";
-import Star48 from "../../../assets/star48.png";
 import ColorSec from "../../../assets/coloradvsec.png";
+import Star48 from "../../../assets/star48.png";
 
 const SecondLeftAdv = () => {
   return (

@@ -9,6 +9,7 @@ const Advantages = () => {
     <div className=" mt-72">
       <div className=" flex relative  lg:flex-row flex-col lg:mb-0 ">
         <FirstLeftAdv />
+
         <FirstRightAdv />
       </div>
       <div className=" lg:mt-96 mt-[500px]">

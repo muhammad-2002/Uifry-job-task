@@ -1,11 +1,14 @@
 import React from "react";
+import ColorFeatRight from "../../assets/colorfeaturesright.png";
 import Features1 from "../../assets/features1.png";
 import Features2 from "../../assets/features2.png";
 import Features3 from "../../assets/features3.png";
-import ColorFeatRight from "../../assets/colorfeaturesright.png";
 const RightFeatures = () => {
   return (
-    <div className=" mt-32 lg:mx-0 mx-4 lg:w-[50%] w-[425px] relative">
+    <div
+      data-aos="fade-left"
+      className=" mt-32 lg:mx-0 mx-4 lg:w-[50%] w-[425px] relative"
+    >
       <img
         className=" absolute lg:-right-[40%] right-5"
         src={ColorFeatRight}

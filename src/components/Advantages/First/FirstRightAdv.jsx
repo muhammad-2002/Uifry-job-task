@@ -1,8 +1,8 @@
 import React from "react";
 import adv1 from "../../../assets/adv1.png";
 import advs1 from "../../../assets/advs1.png";
-import Star64 from "../../../assets/star64.png";
 import ColorFirst from "../../../assets/coloradvfirst.png";
+import Star64 from "../../../assets/star64.png";
 
 const FirstRightAdv = () => {
   return (
